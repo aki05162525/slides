@@ -1,0 +1,9 @@
+{
+  "name": "slidev-addon-shared",
+  "version": "0.0.0",
+  "private": true,
+  "description": "全デッキ共通のスタイル・コンポーネント（日本語テンプレ）",
+  "slidev": {
+    "addon": true
+  }
+}

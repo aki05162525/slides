@@ -1,5 +1,8 @@
 ---
 theme: light-icons
+# 全デッキ共通のスタイル・コンポーネント（shared addon）
+addons:
+  - slidev-addon-shared
 # 常にライトモードで表示
 colorSchema: light
 # 日本語フォント（Google Fonts から自動取得される）
@@ -27,7 +30,7 @@ mdc: true
 # 発表タイトルをここに
 
 <div class="mt-6 space-y-1 text-lg opacity-80">
-  <div>2026-06-02 ・ 勉強会名</div>
+  <div>yyyy-mm-dd ・ 勉強会名</div>
   <div>サブタイトル / 一言で何の話か</div>
   <div>@aki05162525</div>
 </div>
