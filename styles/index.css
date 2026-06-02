@@ -1,0 +1,42 @@
+/* 日本語表示の調整（このファイルは Slidev が自動で読み込みます） */
+
+.slidev-layout {
+  /* 日本語は行間を広めにすると読みやすい */
+  line-height: 1.75;
+  /* 行頭・行末の禁則処理 */
+  word-break: normal;
+  overflow-wrap: anywhere;
+  line-break: strict;
+}
+
+/* 見出しは少し詰める */
+.slidev-layout h1,
+.slidev-layout h2,
+.slidev-layout h3 {
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  font-weight: 800;
+}
+
+/* 箇条書きの間隔を少し広げる */
+.slidev-layout ul > li,
+.slidev-layout ol > li {
+  margin-top: 0.35em;
+}
+
+/* コードは日本語混じりでも崩れないように */
+.slidev-layout code,
+.slidev-layout pre {
+  line-height: 1.6;
+}
+
+/* 反転ページ（疑問・区切り用）。headmatter に class: invert を足すと暗背景＋白文字になる */
+.slidev-layout.invert {
+  background: #0f172a;
+  color: #f8fafc;
+}
+.slidev-layout.invert h1,
+.slidev-layout.invert h2,
+.slidev-layout.invert h3 {
+  color: #f8fafc;
+}
