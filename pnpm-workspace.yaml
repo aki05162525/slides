@@ -1,3 +1,5 @@
 shamefullyHoist: true
 packages:
   - shared
+ignoredBuiltDependencies:
+  - esbuild
